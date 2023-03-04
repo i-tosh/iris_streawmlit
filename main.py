@@ -54,5 +54,5 @@ st.write(pred_df)
 # 予測結果の出力
 name = pred_df.idxmax(axis=1).tolist()
 st.write('## Result')
-st.write('このアイリスはきっと',str(name[0]),'です!')
+st.write('このアイリスはきっと多分',str(name[0]),'ですよ!')
 #'このアイリスはきっと',str(name[0]),'です!'
